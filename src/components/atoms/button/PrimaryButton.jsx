@@ -8,7 +8,7 @@ export const PrimaryButton = (props) => {
 
 // BaseButtonを別コンポーネントとして準備して、そのコンポーネントに対してパラメタを追加したり上書きしたりする
 const SButton = styled(BaseButton)`
-  background-color: yellow;
-  color: black;
-  padding: 20px 20px;
+  background-color: blue;
+  color: white;
+  padding: 9px 25px;
 `;
