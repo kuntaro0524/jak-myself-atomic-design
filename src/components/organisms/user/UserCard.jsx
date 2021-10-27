@@ -1,21 +1,21 @@
 import styled from "styled-components";
 
-export const UserCard = () => {
+export const UserCard = (props) => {
+  const { user } = props;
+
   return (
     <div>
-      <img
-        alt="profile"
-        height={160}
-        src="https://www.pngkey.com/png/full/103-1032664_jpg-transparent-download-cute-free-download-mart-girl.png"
-      />
-      <p> name </p>
+      <img alt="profile" height={160} src={user.image} />
+      <p> {user.name} </p>
       <SDl>
         <dt> E-mail </dt>
-        <dd> kuntaro@gmail.com </dd>
+        <dd> {user.email}</dd>
         <dt> URL </dt>
-        <dd> https://kuntaro.com </dd>
+        <dd> {user.url} </dd>
         <dt> Phone </dt>
-        <dd> 080 5319 1649 </dd>
+        <dd> {user.phone} </dd>
+        <dt> Company</dt>
+        <dd> {user.company.name} </dd>
       </SDl>
     </div>
   );
@@ -30,7 +30,7 @@ const SDl = styled.dl`
     float: left;
   }
   dd {
-    padding-left: 32px;
+    padding-left: 100px;
     padding-bottom: 8px;
   }
 `;
