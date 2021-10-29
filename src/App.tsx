@@ -1,6 +1,7 @@
 import "./styles.css";
 import { SearchInput } from "./components/molecules/SearchInput";
 import { UserCard } from "./components/organisms/user/UserCard";
+import { HeaderOnly } from "./components/template/HeaderOnly";
 
 const user = {
   name: "平田邦生",
@@ -17,8 +18,10 @@ const user = {
 export default function App() {
   return (
     <div className="App">
-      <SearchInput />
-      <UserCard user={user} />
+      <HeaderOnly>
+        <SearchInput />
+        <UserCard user={user} />
+      </HeaderOnly>
     </div>
   );
 }
