@@ -33,5 +33,7 @@ const SDl = styled.dl`
   dd {
     padding-left: 100px;
     padding-bottom: 8px;
+    /* 画面を小さくしていったときに要素がはみ出したとき折返し表示をしてくれる設定 */
+    overflow-wrap: break-word;
   }
 `;
