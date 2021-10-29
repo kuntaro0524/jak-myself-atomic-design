@@ -21,3 +21,10 @@ Created with CodeSandbox
 - components/atom/Footer.jsx 作成 →Header のコピーなので内容はデタラメ
 - DefaultLayout.jsx には Header と Footer を含めるレイアウトを作成
 - App.js からそれを呼び出してヘッダとフッタが表示されることを確認
+
+# template 作成 5
+
+- components/template/DefaultLayout.jsx 作成
+- components/atom/Footer.jsx 作成 →Header のコピーなので内容はデタラメ
+- DefaultLayout.jsx には Header と Footer を含めるレイアウトを作成
+- App.js からそれを呼び出してヘッダとフッタが表示されることを確認
