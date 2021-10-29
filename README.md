@@ -14,3 +14,10 @@ Created with CodeSandbox
 # template 作成 ３
 
 - 表示に　 styled component を当てていく
+
+# template 作成 4
+
+- components/template/DefaultLayout.jsx 作成
+- components/atom/Footer.jsx 作成 →Header のコピーなので内容はデタラメ
+- DefaultLayout.jsx には Header と Footer を含めるレイアウトを作成
+- App.js からそれを呼び出してヘッダとフッタが表示されることを確認
