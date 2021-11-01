@@ -40,3 +40,10 @@ Created with CodeSandbox
 - pages コンポーネントを作成。(Top.jsx / Users.jsx)
 - App.jsx→Router.jsx→ 出し分け
 - この部分に layout コンポーネントを適用して header とか表示されるようにした。
+
+# page 作成 3
+
+- Users.jsx(pages)でカードを１０枚表示するように設定
+- Users.jsx の中身に App.jsx にいた　 User 情報をもってきた
+- ダミー配列を作成（ほぼ同じ内容の user 情報）
+- map 関数でそれを表示（ポイント）
