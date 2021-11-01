@@ -46,4 +46,9 @@ Created with CodeSandbox
 - Users.jsx(pages)でカードを１０枚表示するように設定
 - Users.jsx の中身に App.jsx にいた　 User 情報をもってきた
 - ダミー配列を作成（ほぼ同じ内容の user 情報）
-- map 関数でそれを表示（ポイント）
+- map 関数でそれを表示（ポイント）＠Users.jsx
+
+# page 作成 4
+
+- Users.jsx の中で Card の表示方法で styled component を利用したスタイルを当てた
+- じゃけぇ先生の言っているように表示の方法として CSS で grid を当てるのは使いようによって素晴らしいので勉強するようにとのこと
