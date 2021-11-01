@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { DefaultLayout } from "../template/DefaultLayout";
 
 export const Top = () => {
   return (

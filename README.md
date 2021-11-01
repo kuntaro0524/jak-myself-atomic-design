@@ -34,3 +34,9 @@ Created with CodeSandbox
 - router/Router.jsx を準備して「出し分け」を記述。
 - それぞれの URL で何を表示するかを設定。
 - それを App.jsx から呼び出して使えるようにした。
+
+# page 作成 2
+
+- pages コンポーネントを作成。(Top.jsx / Users.jsx)
+- App.jsx→Router.jsx→ 出し分け
+- この部分に layout コンポーネントを適用して header とか表示されるようにした。
