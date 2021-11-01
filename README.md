@@ -28,3 +28,9 @@ Created with CodeSandbox
 - components/atom/Footer.jsx 作成 →Header のコピーなので内容はデタラメ
 - DefaultLayout.jsx には Header と Footer を含めるレイアウトを作成
 - App.js からそれを呼び出してヘッダとフッタが表示されることを確認
+
+# page 作成１
+
+- router/Router.jsx を準備して「出し分け」を記述。
+- それぞれの URL で何を表示するかを設定。
+- それを App.jsx から呼び出して使えるようにした。

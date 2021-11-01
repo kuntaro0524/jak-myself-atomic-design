@@ -4,6 +4,7 @@ import { UserCard } from "./components/organisms/user/UserCard";
 import { HeaderOnly } from "./components/template/HeaderOnly";
 import { DefaultLayout } from "./components/template/DefaultLayout";
 import { BrowserRouter } from "react-router-dom";
+import { Router } from "./router/Router";
 
 const user = {
   name: "平田邦生",
@@ -20,12 +21,7 @@ const user = {
 export default function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <DefaultLayout>
-          <SearchInput />
-          <UserCard user={user} />
-        </DefaultLayout>
-      </BrowserRouter>
+      <Router />
     </div>
   );
 }
